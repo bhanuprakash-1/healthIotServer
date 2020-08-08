@@ -44,7 +44,7 @@ app.get('/login/:username/:password',(req, res) => {
 
 
 
-app.listen(1234, () => {
-  console.log("Server is listening on port: 1234 ","http://localhost:1234/hello");
+app.listen(3000, () => {
+  console.log("Server is listening on port: 1234 ","http://13.76.168.94:3000/hello");
 
 });
